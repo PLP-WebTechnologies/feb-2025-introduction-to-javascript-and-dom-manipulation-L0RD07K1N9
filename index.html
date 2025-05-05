@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .dynamic-text {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #element-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOM Manipulation Demo</h1>
+    </header>
+    <main>
+        <section>
+            <p id="dynamic-text" class="dynamic-text">Welcome! Click the buttons below to interact with this text.</p>
+            <button id="change-text-btn">Change Text</button>
+            <button id="change-style-btn">Toggle Style</button>
+            <button id="add-element-btn">Add Element</button>
+            <button id="remove-element-btn">Remove Element</button>
+            <div id="element-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
